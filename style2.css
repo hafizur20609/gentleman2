@@ -1,0 +1,614 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+
+    /* start header part */
+}
+header{
+    max-width: 1200px ;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: row;
+    margin-top:15px;
+    
+    
+
+}
+.rinterio {
+    font-size: ;
+    margin-top:12px ;
+}
+.rinterio .rinterio_1{
+    font-size: 25px ;
+}
+.rinterio i{
+    background-color:rgb(171, 239, 95);
+    border-radius: 15px;
+    font-size: 20px ;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav ul #bold{
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.3s;
+}
+#book{
+    
+    margin-top: 20px 
+}
+#book i{
+    font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+#book1{
+    background-color: rgb(171, 239, 95);
+    padding: 10px ;
+    border-radius: 100px 
+}
+#book1 i{
+    background-color: black;
+    color: white;
+    border-radius: 20px 
+}
+
+    /* Finish header part */
+
+/* start_section_part1*/
+
+#section_part1{
+    flex-wrap: wrap;
+  max-width: 1200px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+}
+.picture_part1{
+   
+} 
+.barn_house .logo_{
+    font-size: 50px 
+    ;
+    text-transform: capitalize;
+}
+.pera_{
+
+}
+.view_{
+    background-color: rgb(212, 246, 174);
+    padding: 5px 20px ;
+    border-radius: 25px;
+    border: none;
+}
+.view_ i{
+     background-color:  rgb(171, 239, 95);
+     padding: 10px ;
+     border-radius: 20px ;
+}
+
+/* =========== start from here main section   ==============*/
+ 
+main{
+ background-color: rgb(244, 244, 244);
+}
+main .vector_part1{
+    margin-left: 100px ;
+}
+
+/* =====================start from here section part 2=====================*/
+ 
+#section_part2{
+    width: 1200px ;
+    height: auto;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#design_part1{
+ width: 550px;
+}
+#design_part1 .designson_part1{
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color:rgb(248, 248, 248) ;
+    padding: 7px;
+    border-radius: 10px ;
+    margin-top: 15px;
+}
+#design_part1 .designson_part2{
+    font-size: 40px 
+    ;
+    font-weight: bold;
+}
+
+.design_part2{ 
+display: flex;
+background-color: white;
+margin-top: 40px;
+border-radius: 10px ;
+padding:14px ;
+
+}
+.design_part2 .commercial_part1{  
+    
+    margin-top: 25px ;
+    
+}
+.design_part3{     /* == residential ==*/
+    display: flex;
+    background-color: white;
+    margin-top:60px  ;
+    border-radius: 10px ;
+    padding: 18px;
+    
+}
+.design_part3 .residential_part1{
+    margin-top: 25px ;
+}
+#hotel_part1:hover{
+     
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+   /* ===============================start from here section 3===============*/
+#section_part3{
+    width: 1200px ;
+    height: auto;
+    margin: auto;
+    margin-top: 70px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+#tarek {
+    font-size: 30px ;
+    margin-bottom: 5px ;
+}
+#section_part3 div b{
+    font-size:20px ;
+    margin-top: 5px ;
+}
+/*======================== start from here section_part4 ====================*/
+
+#section_part4{
+       width: 1200px;
+       height: auto;
+       margin: auto;
+       margin-top: 50px ;
+}
+
+#work_part1{             /* #work_part1   */
+    text-align: center;
+}
+.work_part1{
+    background-color: white;
+    padding: 10px ;
+    border-radius: 20px ;
+}
+.work_part2{
+    font-size: 30px ;
+}
+.work_part3{
+    
+}
+    /*========box_part1========*/
+#box_part1{      
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxson_part1{
+    background-color: rgb(231, 193, 211);
+}
+.boxson_part2{
+    background-color: rgb(239, 218, 110);
+}
+.boxson_part3{
+    background-color: rgb(164, 218, 195);
+}
+.boxson_part4{
+    background-color:rgb(119, 170, 234);
+}
+                               /*=====box_part1 div =====*/
+#box_part1 div{   
+
+width: 250px ;
+height: auto;
+padding: 10px ;
+border-radius: 10px ;
+}
+#box_part1 div .concept_all{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+/* ======================start from here section part=========== 5*/
+#section_part5{
+    width: 1200px ;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+#our_part1{
+    text-align: center;
+
+}
+
+#our_part1 .first_{
+background-color:rgb(238, 252, 223);
+padding: 10px;
+border-radius: 10px;
+}
+#our_part1 .second_{
+    font-size: 40px ;
+}
+
+                           /* our_part2 start from here */
+#our_part2{              
+    display: flex;
+    justify-content: space-around;
+}
+#our_part2 .one_{
+    width: 300px;
+    height: auto;
+    background-image: url(img1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 15px;
+}
+
+#our_part2 .two{
+    width: 400px ;
+    height: auto;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#our_part2 .two .towson_part1{
+    font-size: 30px  ;
+    text-transform: capitalize;
+}
+#our_part2 .two .twoson_part2{
+    line-height: 10px;
+}
+#our_part2 .two .twoson_part3{
+    font-size: 20px;
+    background-color: rgb(238, 239, 234);
+    padding: 10px ;
+    border-radius: 10px;
+}
+#our_part2 .two i{
+    background-color:rgb(153, 213, 87);
+    padding: 10px ;
+    border-radius: 20px;
+}
+
+#our_part3{
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+.house_part1{
+    width: 260px ;
+    height: auto;
+    padding: 10px;
+    border-radius:8px;
+    border: 1px solid wheat;
+    box-shadow: 1px 1px 1px black;
+}
+
+.house_part1 .house_sonpart1{
+    font-size: 30px ;
+    text-transform: capitalize;
+}
+
+.house_part1 .house_sonpart3{
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: rgb(238, 239, 234);
+    padding: 10px;
+    border-radius:10px;
+    
+}
+.house_part1 .house_sonpart3 i{
+    background-color:rgb(153, 213, 87);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/*================start section part 6=====================*/
+
+main{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#section_part6{
+    width: 1200px;
+    height: auto;
+    margin:auto;
+    
+}
+
+
+                         /*home_part1*/
+#home_part1{           
+    text-align: center;
+
+}
+
+.new_part1{
+    text-transform: capitalize;
+    background-color:rgb(244, 244, 244) ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.new_part2{
+ 
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+
+#home_part2{
+    margin-top:40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home_part2 div{
+    width:300px;
+    background-color: white;
+    padding:30px;
+    border-radius: 15px;
+}
+                      
+.home_part2_son1:hover{             /*  hover effect from here ======*/
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.home_part2_son2:hover{
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.home_part2_son3:hover{
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+#home_part2 div .man_{
+    text-transform: capitalize;
+
+}
+                                  
+#home_part2 div .man_ i{          /*============div===========*/
+    background-color: white;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+#home_part2 div  .b_part1{       
+    font-size: 20px;
+}
+#home_part2 div  .b_part3{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#home_part2 div  .b_part3 i{
+    background-color: rgb(171, 239, 95);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+
+
+/*====start main part 3 ====*/
+#main_part3{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height: auto;
+}
+
+/*section part 7*/
+
+#section_part7{   
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+}
+#form_part1{         /* form part 1======= */
+    text-align: center;
+}
+.next_part1{
+    text-transform: capitalize;
+    background-color:rgb(244, 244, 244);
+    padding: 10px;
+    border-radius: 15px;
+}
+.next_part2{
+    font-size: 30px;
+}
+
+               
+                /*form_part 2=========*/
+#form_part2{    
+    margin-top: 40px;
+}
+.form_part2_son1{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+}
+.form_part2_son1 #nam_part1{
+    padding: 20px;
+    padding-right: 380px;
+    border-radius: 24px;
+    border: none;
+}
+.form_part2_son2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form_part2_son2 #nam_part2{
+ 
+    padding: 20px;
+    padding-right: 380px;
+    border-radius: 24px;
+    border: none;
+}
+
+.form_part2_son3{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+#textarea_{
+
+}
+
+.form_part2_son4{
+    padding: 20px;
+}
+.form_part2_son4 button{
+    padding: 15px 507px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(171, 239, 95);
+}
+.form_part2_son4 button i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+
+/*================main part4 / section part 8=====================*/
+
+
+
+#main_part4{
+  
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
+
+#section_part8{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px soild white;
+}
+#tarek_part1{
+    text-align: center;
+    
+}
+
+.tarek_part1_son1{
+    font-size: 35px;
+    
+ 
+}
+.tarek_part1_son1 i{
+                                   /* background-color: rgb(171, 239, 95); */
+    padding: 6px;
+    border-radius: 30px;
+    color:black;
+    background-color: rgb(171, 239, 95);
+}
+#tarek_part2{
+    text-align: center;
+    margin-top:40px ;
+}
+
+#tarek_part2 ul{
+   list-style: none;
+   
+}
+#tarek_part2 ul li{
+  display: inline;
+  text-align: center;
+  margin: 0 50px;
+  
+}
+
+#tarek_part2 ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: white;
+}
+
+#tarek_part2 ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#tarek_part3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+#tarek_part3 b{
+    background-color: rgb(171, 239, 95);
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+#tarek_part3 i{
+     background-color: black;
+     color: white;
+    border-radius: 20px;
+    padding: 5px;
+}

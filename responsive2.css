@@ -1,0 +1,293 @@
+@media(max-width:768px){
+    /*responsive header start*/
+    header{
+        flex-wrap:wrap ;
+    }
+    nav ul li{
+        display: none;
+    }
+
+    /*start sectionpart 1*/
+
+#section_part1{
+    flex-wrap: wrap;
+    max-width:1200px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+}
+.picture_part1{
+     background-position: center;
+    width: 200px;
+    height: auto;
+    padding: 0 75px;
+} 
+
+.barn_house .logo_{
+    font-size: 30px 
+    ;
+}
+.pera_{
+  padding:10px 40px;   
+}
+    body{
+        
+        border: 2px solid red;
+    }
+
+    /* =========== start from here main section   ==============*/
+ 
+main .vector_part1{
+    display: none;
+}
+    
+#section_part2{
+    display: flex;
+    flex-direction:column;
+}
+#design_part1{
+    text-align: center;
+    padding:10px ;
+    padding-left:105px ;
+
+
+}
+#design_part1 .designson_part1{
+
+}
+#design_part1 .designson_part2{
+    font-size:30px;
+    font-weight: bold;
+}
+.design_part2{ 
+    display: flex;
+    flex: 1 1 100%;
+    
+    }
+#hotel_part1{
+   padding: 20px;
+   padding-left:85px;
+
+   
+}
+#hotel_part1:hover{
+    transform: scale(none);
+}
+/* section part 3 */
+#section_part3{
+    max-width: 1200px ;
+    height: auto;
+    margin: auto;
+    margin-top: 70px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+
+}
+#section_part3 div {
+    width:400px;
+    height: auto;
+
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 160px;
+    border-radius: 10px;
+    
+}
+#section_part3 div b{
+    font-size: 25px;
+}
+
+/*===section part 4 */
+
+#work_part1{
+    width: 470px;
+    text-align: center;
+    
+    margin-left: 145px;
+    
+}
+.work_part3{
+    padding: 5px;
+    font-size: 15px;
+}
+
+#box_part1{      
+    display:block;
+    margin: ;
+}
+#box_part1 div{   
+
+    width: 400px;
+    text-align: center;
+    height: auto;
+    padding: 10px ;
+    border-radius: 10px ;
+    margin: 10px;
+    margin-left: 170px;
+    box-shadow: 1px 2px 5px black;
+    
+}
+
+/*section part 5*/
+
+#our_part1{
+    width: 500px;
+    text-align:center;
+    margin-left: 140px;
+}
+#our_part1 .first_{
+    font-size:13px;
+    border-radius:13px;
+    }
+#our_part1 .second_{
+    font-size: 35px ;
+}
+
+   /* our_part2 start from here */
+
+   #our_part2{              
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 145px;
+    
+}
+#our_part2 .one_{
+    width: 400px;
+    height: 250px;
+    
+}
+#our_part2 .two{
+    width: 380px ;
+    height: auto;
+}
+#our_part2 div{
+margin: 20px;
+}
+
+#our_part3{
+    display: block;
+
+    width: 400px;
+    margin-left:235px;
+    }
+
+/* section part start from here */
+
+
+#home_part1{           
+    
+    width: 400px;
+    margin-left: 170px;
+}
+.new_part2{
+    font-size: 25px;
+}
+
+#home_part2{
+    display: block;
+    width: 450px;
+    margin-left: 155px;
+}
+
+#home_part2 div{
+    width:300px;
+    background-color: white;
+    padding:60px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 7px black;
+    
+}
+
+/*=====section part 7 start from start ===*/
+#form_part1{         /* form part 1======= */
+    text-align: center;
+    width:450px;
+    margin-left: 140px;
+}
+
+.next_part2{
+    font-size: 20px;
+}
+
+
+
+#form_part2{    
+    margin-top: 40px;
+    width: 600px;
+    margin-left: 58px;
+} 
+
+
+.form_part2_son1 #nam_part1{
+    padding-right: 100px;
+}
+
+
+.form_part2_son2 #nam_part2{
+    padding-right: 100px;
+}
+
+.form_part2_son3 #textarea_{
+
+    width: 560px;
+    border-radius: 15px;
+ }
+
+
+ .form_part2_son4 button{
+    padding: 15px 210px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(171, 239, 95);
+}
+
+
+
+
+
+
+
+
+/*section part footer start form here*/
+
+#tarek_part1{
+    width: 500px;
+    margin-left: 125px;
+    
+}
+.tarek_part1_son1{
+    font-size: 25px;
+    
+ 
+}
+
+#tarek_part2{
+    text-align: center;
+    margin-top:40px ;
+    width: 700px;
+}
+
+#tarek_part2 ul li{
+    display: inline;
+    text-align: center;
+    margin: 0 30px;
+    
+  }
+
+  #tarek_part3{
+    font-size: 15px;
+    width: 300px;
+    margin-left: 240px;
+}
+
+
+
+}
+                   
+
+@media (max-width: 768px) 
